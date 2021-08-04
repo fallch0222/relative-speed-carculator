@@ -25,6 +25,10 @@ namespace relativespeedcarculator
             kphconvertion(Knot);
             range = Convert.ToDouble(lines[1]);
             maincarrulation(kph, range);
+            mainstrings();
+        }
+        static void mainstrings()
+        {
             Console.WriteLine();
             Console.WriteLine(output + " seconds required to collision");
             Console.WriteLine();
